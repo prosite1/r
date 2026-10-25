@@ -1553,17 +1553,11 @@ body.is-ar .sm-eyebrow{letter-spacing:0; text-transform:none; font-size:.82rem}
   .hero{padding-bottom:26px}
   .hero-head .lead{font-size:1.02rem}
   .hero-pill{font-size:.7rem; padding:7px 15px 7px 12px; gap:8px; letter-spacing:.06em}
-  /* une seule rangée qui défile au doigt, pour garder le bouton RDV visible */
-  .hero-services{
-    flex-wrap:nowrap; justify-content:flex-start; gap:6px;
-    margin:0 -22px 18px; padding:2px 22px 4px;
-    overflow-x:auto; scroll-snap-type:x proximity; scrollbar-width:none;
-    -webkit-mask-image:linear-gradient(90deg,transparent,#000 20px,#000 calc(100% - 20px),transparent);
-            mask-image:linear-gradient(90deg,transparent,#000 20px,#000 calc(100% - 20px),transparent);
-  }
-  .hero-services::-webkit-scrollbar{display:none}
-  .hero-services li{flex-shrink:0; scroll-snap-align:start}
-  .hero-services a{font-size:.76rem; padding:6px 11px; white-space:nowrap}
+  /* toutes les pastilles visibles, centrées, sur plusieurs lignes */
+  .hero-services{flex-wrap:wrap; justify-content:center; gap:7px; margin:0 0 10px}
+  .hero-main .hs-right{margin-bottom:18px}
+  .hero-services li{max-width:100%}
+  .hero-services a{font-size:.78rem; padding:6px 12px; white-space:normal; text-align:center}
   .trust{grid-template-columns:1fr; gap:9px}
   .trust-item{padding:12px 14px}
   .hero-actions{gap:12px; margin:24px 0 28px}
