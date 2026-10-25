@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="presentation">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#f6fafd"/><stop offset="1" stop-color="#dfeaf5"/>
+    </linearGradient>
+    <linearGradient id="skinG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f9e2c9"/><stop offset="1" stop-color="#e8c3a2"/>
+    </linearGradient>
+    <linearGradient id="lumen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8829a"/>
+      <stop offset=".5" stop-color="#d8566a"/>
+      <stop offset="1" stop-color="#b03b50"/>
+    </linearGradient>
+    <linearGradient id="wallG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9bdd6"/><stop offset="1" stop-color="#6b84a4"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ff6b3d" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ff6b3d" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="soft2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <ellipse cx="600" cy="330" rx="552" ry="345" fill="#ffffff" opacity=".55" filter="url(#soft)"/>
+  <rect x="0" y="150" width="1200" height="420" fill="url(#skinG)"/>
+  <path d="M0 570h1200" stroke="#d3a982" stroke-width="3" opacity=".7"/>
+  <g opacity=".35" stroke="#d3a982" stroke-width="2.5" stroke-linecap="round">
+    <path d="M60 164 l16 392"/><path d="M142 164 l16 392"/><path d="M224 164 l16 392"/><path d="M306 164 l16 392"/><path d="M388 164 l16 392"/><path d="M470 164 l16 392"/><path d="M552 164 l16 392"/><path d="M634 164 l16 392"/><path d="M716 164 l16 392"/><path d="M798 164 l16 392"/><path d="M880 164 l16 392"/><path d="M962 164 l16 392"/><path d="M1044 164 l16 392"/><path d="M1126 164 l16 392"/>
+  </g><ellipse cx="430" cy="360" rx="190" ry="130" fill="#b98a6e" opacity=".35" filter="url(#soft)"/>
+   <path d="M330 300 c40-40 130-46 176-8 44 36 40 108-8 136 -54 32-150 26-186-16 -28-34-16-80 18-112z"
+         fill="#dfa294"/>
+   <path d="M356 316 c34-30 108-34 144-6 34 28 30 84-8 106 -44 26-120 20-148-14 -22-26-12-64 12-86z"
+         fill="#c2665f"/>
+   <g transform="translate(700 250)">
+     <rect x="0" y="0" width="330" height="90" rx="18" fill="#ffffff" stroke="#d9e4ee" stroke-width="5"/>
+     <rect x="26" y="118" width="330" height="90" rx="18" fill="#f4f8fc" stroke="#d9e4ee" stroke-width="5"/>
+     <rect x="52" y="236" width="330" height="90" rx="18" fill="#ffffff" stroke="#d9e4ee" stroke-width="5"/>
+     <path d="M-40 46 h30 M-40 164 h56 M-40 282 h82" stroke="#0b4a80" stroke-width="9" stroke-linecap="round"/>
+   </g>
+   <path d="M120 596 q140-46 280 0 t280 0 t280 0" fill="none" stroke="#e7eef6" stroke-width="54" stroke-linecap="round"/>
+   <path d="M120 596 q140-46 280 0 t280 0 t280 0" fill="none" stroke="#cfdeeb" stroke-width="6" stroke-dasharray="4 26" stroke-linecap="round"/>
+  <path d="M0 742h1200" stroke="#e0384a" stroke-width="8"/>
+</svg>

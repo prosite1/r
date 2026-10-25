@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <!-- goutte inclinée pour pointer vers le haut-gauche, comme une flèche :
+       la pointe tombe alors sur (9, 5), qui sert de point de clic. -->
+  <g transform="rotate(-30 14 14)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 3c-3.5 4.8-5.8 7.8-5.8 10.8a5.8 5.8 0 0 0 11.6 0c0-3-2.3-6-5.8-10.8z"
+          fill="#0b4a80" stroke="#ffffff" stroke-width="1.7"/>
+    <path d="M10.2 14.6h2.2l1.2-2.7 1.9 5.4 1.2-2.7h1.7"
+          fill="none" stroke="#ffffff" stroke-width="1.5"/>
+  </g>
+</svg>

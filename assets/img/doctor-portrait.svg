@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 820" width="700" height="820" role="presentation">
+  <defs>
+    <linearGradient id="p" x1="0" y1="0" x2=".6" y2="1">
+      <stop offset="0" stop-color="#dceaf7"/><stop offset="1" stop-color="#a9c8e6"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef4fb"/>
+    </linearGradient>
+    <pattern id="pdots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.7" fill="#0b4a80" opacity=".14"/>
+    </pattern>
+  </defs>
+  <rect width="700" height="820" fill="url(#p)"/>
+  <rect width="700" height="820" fill="url(#pdots)"/>
+  <circle cx="350" cy="344.4" r="294" fill="#ffffff" opacity=".38"/>
+
+  <g transform="translate(350 820)">
+    <!-- blouse -->
+    <path d="M-215 0c0-150 62-236 133-262l82 34 82-34c71 26 133 112 133 262z" fill="url(#coat)"/>
+    <path d="M-82-262 L0-150 82-262" fill="none" stroke="#cfdfee" stroke-width="7"/>
+    <path d="M0-150 V0" stroke="#cfdfee" stroke-width="6" fill="none"/>
+    <!-- col chemise -->
+    <path d="M-46-278 L0-206 46-278 22-296h-44z" fill="#1573b8"/>
+    <!-- cou -->
+    <path d="M-42-330h84v70l-42 44-42-44z" fill="#f0d3bd"/>
+    <!-- tête -->
+    <circle cy="-408" r="96" fill="#f7ddc7"/>
+    <path d="M-96-424c4-70 44-104 96-104s92 34 96 104c-14-30-46-48-96-48s-82 18-96 48z" fill="#2f3b41"/>
+    <circle cx="-36" cy="-410" r="7" fill="#2f3b41"/>
+    <circle cx="36" cy="-410" r="7" fill="#2f3b41"/>
+    <path d="M-24-356c16 12 32 12 48 0" fill="none" stroke="#c99a78" stroke-width="7" stroke-linecap="round"/>
+    <!-- stéthoscope -->
+    <path d="M-58-268c-26 26-30 78-6 116 20 32 62 40 92 18" fill="none" stroke="#0b4a80" stroke-width="11" stroke-linecap="round"/>
+    <path d="M58-268c22 22 26 62 12 92" fill="none" stroke="#0b4a80" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="34" cy="-128" r="22" fill="none" stroke="#0b4a80" stroke-width="11"/>
+    <!-- badge -->
+    <rect x="86" y="-176" width="74" height="52" rx="8" fill="#ffffff" stroke="#cfdfee" stroke-width="5"/>
+    <path d="M96-152h20l8-14 12 32 8-18h14" fill="none" stroke="#e0384a" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+</svg>

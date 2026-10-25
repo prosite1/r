@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="presentation">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2=".65" y2="1">
+      <stop offset="0" stop-color="#f0f6fc"/>
+      <stop offset="1" stop-color="#bed5ea"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".4" r=".6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ground" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#9dbcd8" stop-opacity=".55"/>
+      <stop offset=".62" stop-color="#a8c4dd" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#b6cfe4" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <ellipse cx="600" cy="378" rx="540" ry="360" fill="url(#halo)"/>
+  <ellipse cx="600.0" cy="810.4" rx="353.7" ry="114.1" fill="url(#ground)"/>
+
+  <g transform="translate(608.64 633.92) scale(19.9631)">
+    <ellipse cx="-2.17" cy="-3.75" rx="15.75" ry="9.03" fill="#0a3357" opacity="0.19" filter="url(#soft)"/><polygon points="-14.72,-6.50 -14.72,-22.90 -13.34,-22.10 -13.34,-5.70" fill="#c1cedb" stroke="#c1cedb" stroke-width="1.1" stroke-linejoin="round"/><polygon points="-4.68,-10.70 -4.68,-27.10 -13.34,-22.10 -13.34,-5.70" fill="#8d97a0" stroke="#8d97a0" stroke-width="1.1" stroke-linejoin="round"/><polygon points="-6.06,-27.90 -4.68,-27.10 -13.34,-22.10 -14.72,-22.90" fill="#d6e3ee" stroke="#d6e3ee" stroke-width="1.1" stroke-linejoin="round"/><polygon points="3.81,4.20 3.81,-12.20 5.20,-11.40 5.20,5.00" fill="#c1cedb" stroke="#c1cedb" stroke-width="1.1" stroke-linejoin="round"/><polygon points="13.86,0.00 13.86,-16.40 5.20,-11.40 5.20,5.00" fill="#8d97a0" stroke="#8d97a0" stroke-width="1.1" stroke-linejoin="round"/><polygon points="12.47,-17.20 13.86,-16.40 5.20,-11.40 3.81,-12.20" fill="#d6e3ee" stroke="#d6e3ee" stroke-width="1.1" stroke-linejoin="round"/><polygon points="-14.72,-10.90 -14.72,-12.10 5.20,-0.60 5.20,0.60" fill="#e1e7eb" stroke="#e1e7eb" stroke-width="1.1" stroke-linejoin="round"/><polygon points="13.86,-4.40 13.86,-5.60 5.20,-0.60 5.20,0.60" fill="#a5a9ac" stroke="#a5a9ac" stroke-width="1.1" stroke-linejoin="round"/><polygon points="-6.06,-17.10 13.86,-5.60 5.20,-0.60 -14.72,-12.10" fill="#f4f9fd" stroke="#f4f9fd" stroke-width="1.1" stroke-linejoin="round"/><polygon points="-14.72,-16.90 -14.72,-18.10 5.20,-6.60 5.20,-5.40" fill="#e1e7eb" stroke="#e1e7eb" stroke-width="1.1" stroke-linejoin="round"/><polygon points="13.86,-10.40 13.86,-11.60 5.20,-6.60 5.20,-5.40" fill="#a5a9ac" stroke="#a5a9ac" stroke-width="1.1" stroke-linejoin="round"/><polygon points="-6.06,-23.10 13.86,-11.60 5.20,-6.60 -14.72,-18.10" fill="#f4f9fd" stroke="#f4f9fd" stroke-width="1.1" stroke-linejoin="round"/><polygon points="-14.72,-22.90 -14.72,-24.30 5.20,-12.80 5.20,-11.40" fill="#d7dfe7" stroke="#d7dfe7" stroke-width="1.1" stroke-linejoin="round"/><polygon points="13.86,-16.40 13.86,-17.80 5.20,-12.80 5.20,-11.40" fill="#9da3a9" stroke="#9da3a9" stroke-width="1.1" stroke-linejoin="round"/><polygon points="-6.06,-29.30 13.86,-17.80 5.20,-12.80 -14.72,-24.30" fill="#ebf2f9" stroke="#ebf2f9" stroke-width="1.1" stroke-linejoin="round"/><defs><linearGradient id="cy0" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#eef0f2"/>
+      <stop offset=".46" stop-color="#fbfdff"/>
+      <stop offset="1" stop-color="#abacad"/>
+    </linearGradient></defs><path d="M-7.96,-16.40 L-7.96,-13.70 A1.90,1.10 0 0 0 -4.16,-13.70 L-4.16,-16.40 Z" fill="url(#cy0)"/><ellipse cx="-6.06" cy="-16.40" rx="1.90" ry="1.10" fill="#fcfdff"/><ellipse cx="-6.06" cy="-16.40" rx="0.67" ry="0.39" fill="#c4c5c7"/><defs><linearGradient id="cy1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#dde5eb"/>
+      <stop offset=".46" stop-color="#e9f1f8"/>
+      <stop offset="1" stop-color="#9ea4a9"/>
+    </linearGradient></defs><path d="M-4.50,-14.40 L-4.50,-11.70 A1.90,1.10 0 0 0 -0.70,-11.70 L-0.70,-14.40 Z" fill="url(#cy1)"/><ellipse cx="-2.60" cy="-14.40" rx="1.90" ry="1.10" fill="#ecf3f9"/><ellipse cx="-2.60" cy="-14.40" rx="0.67" ry="0.39" fill="#b6bcc1"/><defs><linearGradient id="cy2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#eef0f2"/>
+      <stop offset=".46" stop-color="#fbfdff"/>
+      <stop offset="1" stop-color="#abacad"/>
+    </linearGradient></defs><path d="M-1.03,-12.40 L-1.03,-9.70 A1.90,1.10 0 0 0 2.76,-9.70 L2.76,-12.40 Z" fill="url(#cy2)"/><ellipse cx="0.87" cy="-12.40" rx="1.90" ry="1.10" fill="#fcfdff"/><ellipse cx="0.87" cy="-12.40" rx="0.67" ry="0.39" fill="#c4c5c7"/><defs><linearGradient id="cy3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d4dfe9"/>
+      <stop offset=".46" stop-color="#e1ebf6"/>
+      <stop offset="1" stop-color="#98a0a7"/>
+    </linearGradient></defs><path d="M-11.77,-14.20 L-11.77,-11.50 A1.90,1.10 0 0 0 -7.97,-11.50 L-7.97,-14.20 Z" fill="url(#cy3)"/><ellipse cx="-9.87" cy="-14.20" rx="1.90" ry="1.10" fill="#e5eef7"/><ellipse cx="-9.87" cy="-14.20" rx="0.67" ry="0.39" fill="#afb7c0"/><defs><linearGradient id="cy4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#eef0f2"/>
+      <stop offset=".46" stop-color="#fbfdff"/>
+      <stop offset="1" stop-color="#abacad"/>
+    </linearGradient></defs><path d="M-8.31,-12.20 L-8.31,-9.50 A1.90,1.10 0 0 0 -4.51,-9.50 L-4.51,-12.20 Z" fill="url(#cy4)"/><ellipse cx="-6.41" cy="-12.20" rx="1.90" ry="1.10" fill="#fcfdff"/><ellipse cx="-6.41" cy="-12.20" rx="0.67" ry="0.39" fill="#c4c5c7"/><polygon points="-2.42,-12.40 -2.42,-15.80 4.16,-12.00 4.16,-8.60" fill="#2a699d" stroke="#2a699d" stroke-width="1.1" stroke-linejoin="round"/><polygon points="10.22,-12.10 10.22,-15.50 4.16,-12.00 4.16,-8.60" fill="#093a62" stroke="#093a62" stroke-width="1.1" stroke-linejoin="round"/><polygon points="3.64,-19.30 10.22,-15.50 4.16,-12.00 -2.42,-15.80" fill="#316ea1" stroke="#316ea1" stroke-width="1.1" stroke-linejoin="round"/><polygon points="-1.39,-15.80 -1.39,-16.30 4.16,-13.10 4.16,-12.60" fill="#146bab" stroke="#146bab" stroke-width="1.1" stroke-linejoin="round"/><polygon points="9.18,-15.50 9.18,-16.00 4.16,-13.10 4.16,-12.60" fill="#0e4e7d" stroke="#0e4e7d" stroke-width="1.1" stroke-linejoin="round"/><polygon points="3.64,-19.20 9.18,-16.00 4.16,-13.10 -1.39,-16.30" fill="#3888c3" stroke="#3888c3" stroke-width="1.1" stroke-linejoin="round"/><ellipse cx="8.66" cy="9.00" rx="6.60" ry="3.78" fill="#0a3357" opacity="0.18" filter="url(#soft)"/><ellipse cx="8.66" cy="8.80" rx="4.29" ry="2.47" fill="#b9cde0"/><defs><linearGradient id="cy5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c4d3df"/>
+      <stop offset=".46" stop-color="#d0dfeb"/>
+      <stop offset="1" stop-color="#8d97a0"/>
+    </linearGradient></defs><path d="M4.99,7.80 L4.99,8.80 A3.67,2.12 0 0 0 12.33,8.80 L12.33,7.80 Z" fill="url(#cy5)"/><ellipse cx="8.66" cy="7.80" rx="3.67" ry="2.12" fill="#d6e3ee"/><defs><linearGradient id="cy6" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2d5072"/>
+      <stop offset=".46" stop-color="#33577b"/>
+      <stop offset="1" stop-color="#203952"/>
+    </linearGradient></defs><path d="M5.48,2.00 L5.48,7.80 A3.18,1.84 0 0 0 11.84,7.80 L11.84,2.00 Z" fill="url(#cy6)"/><ellipse cx="8.66" cy="2.00" rx="3.18" ry="1.84" fill="#4e6e8c"/><defs><linearGradient id="cy7" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3a658a"/>
+      <stop offset=".46" stop-color="#416d94"/>
+      <stop offset="1" stop-color="#294863"/>
+    </linearGradient></defs><path d="M6.03,-4.60 L6.03,2.00 A2.63,1.52 0 0 0 11.29,2.00 L11.29,-4.60 Z" fill="url(#cy7)"/><ellipse cx="8.66" cy="-4.60" rx="2.63" ry="1.52" fill="#5a80a2"/><defs><linearGradient id="cy8" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#47759c"/>
+      <stop offset=".46" stop-color="#4f7ea6"/>
+      <stop offset="1" stop-color="#335470"/>
+    </linearGradient></defs><path d="M6.46,-8.00 L6.46,-4.60 A2.20,1.27 0 0 0 10.86,-4.60 L10.86,-8.00 Z" fill="url(#cy8)"/><ellipse cx="8.66" cy="-8.00" rx="2.20" ry="1.27" fill="#668fb2"/><ellipse cx="8.66" cy="-8.00" rx="2.20" ry="1.27" fill="#6a97ba"/>
+  </g>
+  <path d="M0 892h1200" stroke="#e0384a" stroke-width="8"/>
+</svg>

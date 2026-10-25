@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="presentation">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#f6fafd"/><stop offset="1" stop-color="#dfeaf5"/>
+    </linearGradient>
+    <linearGradient id="skinG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f9e2c9"/><stop offset="1" stop-color="#e8c3a2"/>
+    </linearGradient>
+    <linearGradient id="lumen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8829a"/>
+      <stop offset=".5" stop-color="#d8566a"/>
+      <stop offset="1" stop-color="#b03b50"/>
+    </linearGradient>
+    <linearGradient id="wallG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9bdd6"/><stop offset="1" stop-color="#6b84a4"/>
+    </linearGradient>
+    <linearGradient id="knitG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a4b8d0"/><stop offset="1" stop-color="#5d7592"/>
+    </linearGradient>
+    <linearGradient id="presG" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#e0384a"/><stop offset="1" stop-color="#9cc0e0"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="soft2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <ellipse cx="600" cy="297" rx="552" ry="351" fill="#ffffff" opacity=".55" filter="url(#soft)"/>
+  <g transform="translate(-140 -6) scale(0.845)">
+    <clipPath id="clipJ3"><path d="M250 40 C 235 190 300 320 312 470 C 322 600 360 660 372 760 L 520 760
+  C 528 640 566 580 578 460 C 590 320 640 190 622 40 Z"/></clipPath>
+    <path d="M250 40 C 235 190 300 320 312 470 C 322 600 360 660 372 760 L 520 760
+  C 528 640 566 580 578 460 C 590 320 640 190 622 40 Z" fill="#c9a184" opacity=".25" transform="translate(12 14)" filter="url(#soft)"/>
+    <path d="M250 40 C 235 190 300 320 312 470 C 322 600 360 660 372 760 L 520 760
+  C 528 640 566 580 578 460 C 590 320 640 190 622 40 Z" fill="url(#skinG)"/>
+    <path d="M320 60 C 312 220 346 420 340 760 L 400 760 C 402 420 372 220 384 60 Z" fill="#ffffff" opacity=".3"/>
+    <g clip-path="url(#clipJ3)">
+       <rect x="200" y="286" width="480" height="480" fill="url(#knitG)"/>
+       <g opacity=".5" stroke="#e2ecf6" stroke-width="5">
+         <path d="M200 312 h480"/><path d="M200 348 h480"/><path d="M200 384 h480"/><path d="M200 420 h480"/><path d="M200 456 h480"/><path d="M200 492 h480"/><path d="M200 528 h480"/><path d="M200 564 h480"/><path d="M200 600 h480"/><path d="M200 636 h480"/><path d="M200 672 h480"/><path d="M200 708 h480"/><path d="M200 744 h480"/>
+       </g>
+       <g opacity=".22" stroke="#2c4a68" stroke-width="4">
+         <path d="M232 286 l30 480"/><path d="M292 286 l30 480"/><path d="M352 286 l30 480"/><path d="M412 286 l30 480"/><path d="M472 286 l30 480"/><path d="M532 286 l30 480"/><path d="M592 286 l30 480"/><path d="M652 286 l30 480"/>
+       </g>
+       <rect x="200" y="286" width="480" height="60" fill="#89a0bd"/>
+       <rect x="200" y="286" width="480" height="12" fill="#6d86a5"/>
+     </g>
+     <path d="M292 300 C 360 268 548 268 604 300" fill="none" stroke="#dce8f4" stroke-width="9" stroke-linecap="round"/>
+  </g><rect x="742" y="118" width="58" height="486" rx="29" fill="url(#presG)"/>
+   <path d="M716 556 L466 556" stroke="#e0384a" stroke-width="19" stroke-linecap="round"/>
+  <path d="M485.3 545.5 L466 556 L485.3 566.5" fill="none" stroke="#e0384a" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/><path d="M716 440 L518 440" stroke="#e0384a" stroke-width="16" stroke-linecap="round"/>
+  <path d="M537.3 429.5 L518 440 L537.3 450.5" fill="none" stroke="#e0384a" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/><path d="M716 322 L566 322" stroke="#e0384a" stroke-width="13" stroke-linecap="round"/>
+  <path d="M585.3 311.5 L566 322 L585.3 332.5" fill="none" stroke="#e0384a" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M716 200 L612 200" stroke="#e0384a" stroke-width="11" stroke-linecap="round"/>
+  <path d="M631.3 189.5 L612 200 L631.3 210.5" fill="none" stroke="#e0384a" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+   <path d="M888 588 L888 142" stroke="#0b4a80" stroke-width="14" stroke-linecap="round"/>
+  <path d="M898.5 161.3 L888 142 L877.5 161.3" fill="none" stroke="#0b4a80" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M0 668h1200" stroke="#e0384a" stroke-width="7"/>
+</svg>

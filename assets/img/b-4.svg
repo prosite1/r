@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="presentation">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#f6fafd"/><stop offset="1" stop-color="#dfeaf5"/>
+    </linearGradient>
+    <linearGradient id="skinG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f9e2c9"/><stop offset="1" stop-color="#e8c3a2"/>
+    </linearGradient>
+    <linearGradient id="lumen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8829a"/>
+      <stop offset=".5" stop-color="#d8566a"/>
+      <stop offset="1" stop-color="#b03b50"/>
+    </linearGradient>
+    <linearGradient id="wallG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9bdd6"/><stop offset="1" stop-color="#6b84a4"/>
+    </linearGradient>
+    <linearGradient id="knitG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a4b8d0"/><stop offset="1" stop-color="#5d7592"/>
+    </linearGradient>
+    <linearGradient id="presG" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#e0384a"/><stop offset="1" stop-color="#9cc0e0"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="soft2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <ellipse cx="600" cy="297" rx="552" ry="351" fill="#ffffff" opacity=".55" filter="url(#soft)"/>
+  <g transform="translate(214 168)">
+     <clipPath id="clipHub"><rect x="-104" y="-118" width="208" height="236" rx="98"/></clipPath>
+     <rect x="-122" y="-136" width="244" height="272" rx="116" fill="#ffffff"/>
+     <g clip-path="url(#clipHub)">
+       <rect x="-104" y="-118" width="208" height="236" fill="#bcd9f2"/>
+       <circle cx="-36" cy="-58" r="34" fill="#ffffff" opacity=".85"/>
+       <circle cx="26" cy="-36" r="22" fill="#ffffff" opacity=".7"/>
+       <path d="M-114 124 L124 28 L124 70 L-16 130 Z" fill="#c3d2e2"/>
+       <path d="M-114 124 L124 28" fill="none" stroke="#ffffff" stroke-width="7"/>
+       <path d="M-114 134 L124 66 L124 122 L-114 122 Z" fill="#e8f2fb" opacity=".9"/>
+     </g>
+     <rect x="-122" y="-136" width="244" height="272" rx="116" fill="none" stroke="#c3d2e2" stroke-width="15"/>
+   </g><g transform="translate(-40 292) scale(0.48)">
+    <clipPath id="clipJ4"><path d="M250 40 C 235 190 300 320 312 470 C 322 600 360 660 372 760 L 520 760
+  C 528 640 566 580 578 460 C 590 320 640 190 622 40 Z"/></clipPath>
+    <path d="M250 40 C 235 190 300 320 312 470 C 322 600 360 660 372 760 L 520 760
+  C 528 640 566 580 578 460 C 590 320 640 190 622 40 Z" fill="#c9a184" opacity=".25" transform="translate(12 14)" filter="url(#soft)"/>
+    <path d="M250 40 C 235 190 300 320 312 470 C 322 600 360 660 372 760 L 520 760
+  C 528 640 566 580 578 460 C 590 320 640 190 622 40 Z" fill="url(#skinG)"/>
+    <path d="M320 60 C 312 220 346 420 340 760 L 400 760 C 402 420 372 220 384 60 Z" fill="#ffffff" opacity=".3"/>
+    <g filter="url(#soft2)">
+      <path d="M398 300 C 436 380 366 430 396 520 C 424 604 372 650 396 730"
+            fill="none" stroke="#5b6ea8" stroke-width="20" stroke-linecap="round" opacity=".8"/>
+    </g>
+  </g><g>
+     <path d="M244 648 A 92 92 0 0 0 294 558" fill="none" stroke="#e0384a" stroke-width="15" stroke-linecap="round"/>
+     <path d="M294 558 l-36 8 m36 -8 l10 34" fill="none" stroke="#e0384a" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+
+   <path d="M300 452 L580 372" stroke="#0b4a80" stroke-width="12" stroke-linecap="round"/>
+  <path d="M564.3 387.4 L580 372 L558.5 367.2" fill="none" stroke="#0b4a80" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+   <clipPath id="clipL4"><circle cx="838" cy="336" r="198"/></clipPath>
+  <path d="M733.1 503.9 L669.5 605.7" stroke="#c3d2e2" stroke-width="30" stroke-linecap="round"/>
+  <circle cx="838" cy="336" r="198" fill="#ffffff"/>
+  <g clip-path="url(#clipL4)"><rect x="740" y="80" width="196" height="512" rx="98" fill="url(#wallG)"/>
+  <rect x="756" y="92" width="164" height="488" rx="82" fill="url(#lumen)"/>
+    <path d="M756 158 Q797 196.5 833 228
+             L833 212 Q788.8 186 756 174 Z"
+          fill="#ffffff" stroke="#8fa7c4" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M920 158 Q879 196.5 843 228
+             L843 212 Q887.2 186 920 174 Z"
+          fill="#ffffff" stroke="#8fa7c4" stroke-width="5" stroke-linejoin="round"/><ellipse cx="838" cy="406" rx="76" ry="112" fill="#6d3a4e"/>
+     <ellipse cx="815" cy="372" rx="29" ry="42" fill="#8d5169" opacity=".75"/><path d="M838 566 L838 500" stroke="#ffffff" stroke-width="16" stroke-linecap="round"/>
+  <path d="M848.5 519.3 L838 500 L827.5 519.3" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <circle cx="838" cy="336" r="198" fill="none" stroke="#c3d2e2" stroke-width="15"/>
+  <circle cx="838" cy="336" r="198" fill="none" stroke="#ffffff" stroke-width="5"/>
+  <path d="M0 668h1200" stroke="#e0384a" stroke-width="7"/>
+</svg>

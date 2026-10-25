@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="presentation">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#f6fafd"/><stop offset="1" stop-color="#dfeaf5"/>
+    </linearGradient>
+    <linearGradient id="skinG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f9e2c9"/><stop offset="1" stop-color="#e8c3a2"/>
+    </linearGradient>
+    <linearGradient id="lumen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8829a"/>
+      <stop offset=".5" stop-color="#d8566a"/>
+      <stop offset="1" stop-color="#b03b50"/>
+    </linearGradient>
+    <linearGradient id="wallG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9bdd6"/><stop offset="1" stop-color="#6b84a4"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ff6b3d" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ff6b3d" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="soft2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <ellipse cx="600" cy="330" rx="552" ry="345" fill="#ffffff" opacity=".55" filter="url(#soft)"/>
+  <g transform="translate(-60 0) scale(0.92)">
+    <path d="M250 40 C 235 190 300 320 312 470 C 322 600 360 660 372 760 L 520 760
+  C 528 640 566 580 578 460 C 590 320 640 190 622 40 Z" fill="#c9a184" opacity=".25" transform="translate(12 14)" filter="url(#soft)"/>
+    <path d="M250 40 C 235 190 300 320 312 470 C 322 600 360 660 372 760 L 520 760
+  C 528 640 566 580 578 460 C 590 320 640 190 622 40 Z" fill="url(#skinG)"/>
+    <path d="M320 60 C 312 220 346 420 340 760 L 400 760 C 402 420 372 220 384 60 Z" fill="#ffffff" opacity=".3"/>
+    <g filter="url(#soft2)">
+  <path d="M400 90 C 442 170 372 226 402 300 C 434 380 366 424 396 504 C 424 578 366 622 392 700"
+        fill="none" stroke="#5b6ea8" stroke-width="16" stroke-linecap="round" opacity=".92"/>
+  <path d="M402 300 C 444 320 468 356 480 396" fill="none" stroke="#5b6ea8" stroke-width="9" stroke-linecap="round" opacity=".85"/>
+  <path d="M396 504 C 362 526 342 556 334 592" fill="none" stroke="#5b6ea8" stroke-width="9" stroke-linecap="round" opacity=".85"/>
+  <ellipse cx="402" cy="300" rx="17" ry="13" fill="#5b6ea8"/>
+  <ellipse cx="396" cy="504" rx="19" ry="15" fill="#5b6ea8"/>
+</g>
+  </g><circle cx="760" cy="330" r="150" fill="#ffffff" opacity=".55"/>
+   <circle cx="760" cy="330" r="150" fill="none" stroke="#c3d2e2" stroke-width="14"/>
+   <circle cx="760" cy="330" r="150" fill="none" stroke="#ffffff" stroke-width="5"/>
+   <path d="M866 436 L980 550" stroke="#c3d2e2" stroke-width="30" stroke-linecap="round"/>
+   <g clip-path="none" filter="url(#soft2)">
+     <path d="M676 250 C 720 300 660 350 706 404" fill="none" stroke="#5b6ea8" stroke-width="14" stroke-linecap="round"/>
+     <path d="M760 224 C 800 290 742 336 786 410" fill="none" stroke="#5b6ea8" stroke-width="10" stroke-linecap="round" opacity=".8"/>
+   </g>
+   <g transform="translate(1000 150)">
+     <rect x="0" y="0" width="150" height="200" rx="14" fill="#ffffff" stroke="#c3d2e2" stroke-width="5"/>
+     <g transform="translate(24 34)">
+        <circle cx="0" cy="0" r="14" fill="none" stroke="#0b4a80" stroke-width="5"/>
+        <path d="M-6 0 l4 5 8-10" fill="none" stroke="#e0384a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M30 0 h72" stroke="#c9d9e8" stroke-width="8" stroke-linecap="round"/>
+     </g><g transform="translate(24 86)">
+        <circle cx="0" cy="0" r="14" fill="none" stroke="#0b4a80" stroke-width="5"/>
+        <path d="M-6 0 l4 5 8-10" fill="none" stroke="#e0384a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M30 0 h72" stroke="#c9d9e8" stroke-width="8" stroke-linecap="round"/>
+     </g><g transform="translate(24 138)">
+        <circle cx="0" cy="0" r="14" fill="none" stroke="#0b4a80" stroke-width="5"/>
+        <path d="M-6 0 l4 5 8-10" fill="none" stroke="#e0384a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M30 0 h72" stroke="#c9d9e8" stroke-width="8" stroke-linecap="round"/>
+     </g>
+   </g>
+  <path d="M0 742h1200" stroke="#e0384a" stroke-width="8"/>
+</svg>

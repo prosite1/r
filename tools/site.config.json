@@ -1,0 +1,18 @@
+{
+  "domain": "https://www.dr-rached-hamza.tn",
+  "domainIsPlaceholder": true,
+  "image": "assets/img/doctor-blouse.jpg",
+  "facebook": "https://www.facebook.com/Drrachedhamza",
+  "medtn": "https://www.med.tn/medecin/angiologue/sfax/dr-rached-hamza-27547.html",
+  "phones": ["+216 74 404 242", "+216 28 704 702"],
+  "address": {
+    "streetAddress": "Immeuble El Majd, 3e étage, n° 5, début route Gremda",
+    "addressLocality": "Sfax",
+    "postalCode": "3000",
+    "addressCountry": "TN"
+  },
+  "hours": [
+    { "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:30", "closes": "18:00" },
+    { "days": ["Saturday"], "opens": "08:30", "closes": "16:00" }
+  ]
+}
